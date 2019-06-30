@@ -1,0 +1,58 @@
+{
+  "name": "wrseward.com",
+  "description": "Blog for William Seward",
+  "version": "0.1.0",
+  "author": "William Seward <wrseward@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/wrseward/wrseward.com/issues"
+  },
+  "dependencies": {
+    "gatsby": "^2.10.4",
+    "gatsby-image": "^2.2.3",
+    "gatsby-plugin-feed": "^2.3.1",
+    "gatsby-plugin-google-analytics": "^2.1.0",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-plugin-twitter": "^2.1.0",
+    "gatsby-plugin-typography": "^2.3.0",
+    "gatsby-remark-copy-linked-files": "^2.1.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^3.1.0",
+    "gatsby-remark-prismjs": "^3.3.0",
+    "gatsby-remark-responsive-iframe": "^2.2.0",
+    "gatsby-remark-smartypants": "^2.1.0",
+    "gatsby-source-filesystem": "^2.1.0",
+    "gatsby-transformer-remark": "^2.5.0",
+    "gatsby-transformer-sharp": "^2.2.0",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typeface-lato": "^0.0.54",
+    "typeface-merriweather": "0.0.72",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
+    "prettier": "^1.18.2"
+  },
+  "homepage": "https://github.com/wrseward/wrseward.com#readme",
+  "license": "MIT",
+  "main": "n/a",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrseward/wrseward.com.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "lint:fix": "prettier --write '**/*.{js,jsx,md,css}'",
+    "serve": "gatsby serve",
+    "start": "npm run dev"
+  }
+}
